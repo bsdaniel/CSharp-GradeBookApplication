@@ -8,8 +8,8 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
 namespace GradeBook.GradeBooks
-{
-    public class BaseGradeBook
+{  // Is made 'abstract' so it will not be instaniated. 
+    public abstract class BaseGradeBook
     {
         public string Name { get; set; }
         public List<Student> Students { get; set; }
